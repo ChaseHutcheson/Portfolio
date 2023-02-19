@@ -1,5 +1,5 @@
-import React from 'react'
-import HeroSection from '../HeroSection'
+import '../../App.css'
+import HeroSection from '../HeroSection';
 
 function Home() {
   return (
@@ -9,4 +9,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
