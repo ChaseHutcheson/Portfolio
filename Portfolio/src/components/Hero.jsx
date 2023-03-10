@@ -2,12 +2,12 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section className='flex flex-row w-full h-[100vh] sm:flex-col text-white items-center justify-between bg-gradient-to-tr from-red-600 to-yellow-500 pt-20 pb-6'>
-        <div className='flex-1'>
-            <h1 className=' font-montserrat font-bold text-4xl md:text-5xl'>Hi, Im Chase.</h1>
-        </div>
-        <div className=''>
-            <h1 className=''>{`</>`}</h1>
+    <section className='flex flex-row md:flex-col text-white items-start justify-center bg-gradient-to-tr from-red-600 to-yellow-500 w-full overflow-hidden px-5 sm:px-20'>
+        <div className='flex-1 flex justify-center items-start flex-col'>
+          <div className='flex-1 items-start mt-48'>
+            <h1 className='font-montserrat font-semibold text-5xl mb-1'>Name</h1>
+            <p className='font-montserrat font-normal text-xl text-stone-200'>Software Engineer & Web Developer</p>
+          </div>
         </div>
     </section>
   )
