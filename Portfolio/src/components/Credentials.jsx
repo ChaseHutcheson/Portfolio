@@ -2,7 +2,7 @@ import React from 'react'
 
 function Credentials() {
   return (
-    <div>Credentials</div>
+    <div></div>
   )
 }
 

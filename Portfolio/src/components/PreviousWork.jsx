@@ -2,7 +2,7 @@ import React from 'react'
 
 function PreviousWork() {
   return (
-    <div>PreviousWork</div>
+    <div></div>
   )
 }
 
